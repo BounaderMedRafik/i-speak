@@ -14,13 +14,17 @@ export const Hero = () => {
               </div>
             </div>
             <div className="max-w-lg uppercase mb-6  text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
-              The quickest learning platform for{" "}
-              <span className="text-primary">english</span> begginers
+              Level up your{" "}
+              <span className="text-primary">English speaking </span>skills
+              online
             </div>
-            <p className="text-base  opacity-75 md:text-sm md:max-w-sm">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-              quae. explicabo.
+            <p className="text-base  opacity-75 md:text-sm md:max-w-3xl">
+              Ispeak center website is here to fit your learning journey of
+              English language into your busy life. It's a place where learners
+              come to achieve their communicative goals in English and boost
+              their speaking skills. This website is your window to join our
+              classes from home and be part of our family. Ispeak center
+              welcomes you to speak English confidently
             </p>
           </div>
           <div className="flex items-center gap-2">

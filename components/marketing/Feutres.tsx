@@ -1,28 +1,38 @@
 import Link from "next/link";
 import React from "react";
 import { buttonVariants } from "../ui/button";
-import { ArrowRight, Award, Languages, Smile } from "lucide-react";
+import {
+  ArrowRight,
+  Award,
+  Book,
+  Languages,
+  Laugh,
+  LetterText,
+  Smile,
+  SpeakerIcon,
+  Users,
+} from "lucide-react";
 
 const fets = [
   {
-    title: "blablabla",
-    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when",
-    icon: <Languages />,
+    title: "Vocabulary",
+    desc: "this is where you will enlarge your dictionary of words of different topics. You can find helpful videos on how to pronounce them too!",
+    icon: <Book />,
   },
   {
-    title: "blablabla",
-    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. L",
-    icon: <Award />,
+    title: "Grammar rules",
+    desc: "This section offers you the best resources of master the English language rules and how to use them via a clear explanation videos. It's time to speak accurately!",
+    icon: <LetterText />,
   },
   {
-    title: "blablabla",
-    desc: "description",
-    icon: <Smile />,
+    title: " Speaking tips",
+    desc: "dive into the valuable videos that give you practical tips to help you not only on speaking English fluently, but also effectively and confidently. Check the tips now!",
+    icon: <Laugh />,
   },
   {
-    title: "blablabla",
-    desc: "description",
-    icon: <Languages />,
+    title: "Ispeak Family",
+    desc: "you are part of our family and we are pleased to share with you what's inside the walls of our center. Check Ispeak Center's classes, achievements and behind the scenes moments in this section. Become an Ispeaker!",
+    icon: <Users />,
   },
 ];
 
@@ -32,16 +42,16 @@ const Feutres = () => {
       <div className="mx-auto max-w-7xl  ">
         <div className="mb-10 lg:mb-16 flex justify-center items-center flex-col gap-x-0 gap-y-6 lg:gap-y-0 lg:flex-row lg:justify-between max-md:max-w-lg max-md:mx-auto">
           <div className="relative w-full text-center lg:text-left lg:w-2/4">
-            <div className="text-4xl uppercase font-black lg:mb-6 mx-auto max-w-max lg:max-w-md lg:mx-0">
-              ENJOY the best lessons provided{" "}
+            <div className="text-4xl uppercase font-black lg:mb-6 mx-auto max-w-full w-full lg:max-w-2xl lg:mx-0">
+              lessons provided{" "}
               <span className=" italic pr-1 text-primary">specifically </span>{" "}
               for you
             </div>
           </div>
           <div className="relative w-full text-center  lg:text-left  flex flex-col items-end justify-end">
-            <div className="text-sm font-normal text-end  opacity-75 max-w-sm mb-5">
-              We provide all the advantages that can simplify all your financial
-              transactions without any further requirements
+            <div className="text-sm font-normal text-end  opacity-75 max-w-xs mb-5">
+              Experience the personalized learning journey designed just for
+              you.
             </div>
             <Link
               href={"/lessons"}
@@ -60,7 +70,7 @@ const Feutres = () => {
           </div>
         </div>
       </div>
-      <div className=" mx-auto max-w-7xl grid grid-cols-4 gap-5">
+      <div className=" mx-auto max-w-7xl grid grid-cols-1  md:grid-cols-4 gap-5 px-7 md:px-0">
         {fets.map((item, i) => {
           return (
             <div
