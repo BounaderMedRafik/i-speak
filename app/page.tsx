@@ -1,4 +1,5 @@
 import Feutres from "@/components/marketing/Feutres";
+import Footer from "@/components/marketing/Footer";
 import Gallery from "@/components/marketing/Gallery";
 import { Hero } from "@/components/marketing/Hero";
 
@@ -14,7 +15,10 @@ export default function Home() {
       <div>
         <Gallery />
       </div>
-      <div className=" h-screen" />
+      <div>
+        <Footer />
+      </div>
+      {/* <div className=" h-screen" /> */}
     </main>
   );
 }
