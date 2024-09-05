@@ -2,10 +2,16 @@ import Feutres from "@/components/marketing/Feutres";
 import Footer from "@/components/marketing/Footer";
 import Gallery from "@/components/marketing/Gallery";
 import { Hero } from "@/components/marketing/Hero";
+import Nav from "@/components/marketing/Nav";
 
 export default function Home() {
   return (
     <main>
+      <div>
+        <div>
+          <Nav />
+        </div>
+      </div>
       <div>
         <Hero />
       </div>

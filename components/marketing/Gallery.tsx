@@ -15,8 +15,8 @@ const Gallery = () => {
         </div>
         <div className="relative w-full text-center  lg:text-left  flex flex-col items-end justify-end">
           <div className="text-sm font-normal text-end  opacity-75 max-w-sm mb-5">
-            We provide all the advantages that can simplify all your financial
-            transactions without any further requirements
+            With a team of highly qualified and experienced teachers who are
+            dedicated to their students' success
           </div>
           <Link
             href={"/about"}
@@ -34,13 +34,13 @@ const Gallery = () => {
           </Link>
         </div>
       </div>
-      <div className="grid h-[50vh] grid-cols-5 gap-2  grid-rows-3 max-w-7xl mx-auto mt-10">
-        <div className=" col-span-2 row-span-2 bg-center bg-cover bg-[url('https://cdn.dribbble.com/userupload/15748279/file/original-db239fd7cf7af0cd76a9ed64979a09dd.png?resize=1024x768')]" />
-        <div className="col-span-3 row-span-1 bg-black" />
-        <div className="col-span-1 row-span-2 bg-black" />
-        <div className="col-span-2 row-span-2 bg-black" />
-        <div className="col-span-1 row-span-1 bg-black" />
-        <div className="col-span-1 row-span-1 bg-black" />
+      <div className=" px-5 md:px-0 grid h-[50vh] grid-cols-5 gap-2  grid-rows-3 max-w-7xl mx-auto mt-10">
+        <div className=" col-span-5  md:col-span-2 md:row-span-2 bg-center bg-cover bg-[url('https://images.pexels.com/photos/3184317/pexels-photo-3184317.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')] rounded-3xl  " />
+        <div className=" col-span-5 md:col-span-3 md:row-span-1 bg-center bg-cover bg-[url('https://images.pexels.com/photos/716276/pexels-photo-716276.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')] rounded-3xl   " />
+        <div className=" col-span-5 md:col-span-1 md:row-span-2 bg-center bg-cover bg-[url('https://images.pexels.com/photos/4144222/pexels-photo-4144222.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')] rounded-3xl  " />
+        <div className=" col-span-5 md:col-span-2 md:row-span-2 bg-center bg-cover bg-[url('https://images.pexels.com/photos/3184647/pexels-photo-3184647.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')] rounded-3xl  " />
+        <div className=" col-span-5 md:col-span-1 md:row-span-1 bg-center bg-cover bg-[url('https://images.pexels.com/photos/1181722/pexels-photo-1181722.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')] rounded-3xl  " />
+        <div className=" col-span-5 md:col-span-1 md:row-span-1 bg-center bg-cover bg-[url('https://images.pexels.com/photos/4145196/pexels-photo-4145196.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')] rounded-3xl  " />
       </div>
     </>
   );

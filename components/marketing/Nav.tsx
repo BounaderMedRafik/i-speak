@@ -13,10 +13,6 @@ const Nav = () => {
       title: "About",
       href: "/about",
     },
-    {
-      title: "Contact",
-      href: "/contact",
-    },
   ];
   return (
     <div className="py-5 border-foreground/20 border-b px-6 md:px-0">

@@ -62,7 +62,7 @@ export const Hero = () => {
       <div className=" w-full h-96">
         <img
           className=" h-full w-full object-cover  rounded-xl md:rounded-3xl mt-7"
-          src="https://cdn.dribbble.com/userupload/16400072/file/original-d1ea79d5292cce343228a6b1c40aa136.jpg?resize=1024x768"
+          src="https://images.pexels.com/photos/3184328/pexels-photo-3184328.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
           alt=""
         />
       </div>
