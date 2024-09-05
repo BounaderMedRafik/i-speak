@@ -1,12 +1,10 @@
-import Nav from "@/components/lessons/Nav";
+import AllLessons from "@/components/lessons/AllLessons";
 import React from "react";
 
 const LessonsPage = () => {
   return (
     <div>
-      <div>
-        <Nav />
-      </div>
+      <AllLessons />
     </div>
   );
 };

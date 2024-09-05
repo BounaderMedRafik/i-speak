@@ -1,6 +1,18 @@
+"use client";
 import React from "react";
 import MyLogo from "../brand/MyLogo";
-import { Bell, Book, BookUser, LogOut, Star, User } from "lucide-react";
+import {
+  Bell,
+  Book,
+  BookUser,
+  Home,
+  Laugh,
+  LetterText,
+  LogOut,
+  Star,
+  User,
+  Users,
+} from "lucide-react";
 import Link from "next/link";
 import {
   Dialog,
@@ -13,30 +25,37 @@ import {
 import { Button } from "../ui/button";
 import { Popover, PopoverContent, PopoverTrigger } from "../ui/popover";
 import { Meetings } from "@/data/lessons";
+import { usePathname } from "next/navigation";
+import { cn } from "@/lib/utils";
 
 const Nav = () => {
   return (
-    <div className=" border-b border-b-foreground/25">
-      <div className=" max-w-7xl flex items-center justify-between p-5 mx-auto">
-        <div>
-          <MyLogo />
+    <div className=" w-full fixed top-0 left-0 bg-background z-50">
+      <div className=" border-b border-b-foreground/25">
+        <div className=" max-w-7xl flex items-center justify-between p-5 mx-auto">
+          <div>
+            <MyLogo />
+          </div>
+          <div className="flex items-center gap-4">
+            <div>
+              <MyLessons />
+            </div>
+            <div>
+              <Notifications />
+            </div>
+            <div>
+              <UserStuff />
+            </div>
+            <div>
+              <Link href={"/"}>
+                <LogOut />
+              </Link>
+            </div>
+          </div>
         </div>
-        <div className="flex items-center gap-4">
-          <div>
-            <MyLessons />
-          </div>
-          <div>
-            <Notifications />
-          </div>
-          <div>
-            <UserStuff />
-          </div>
-          <div>
-            <Link href={"/"}>
-              <LogOut />
-            </Link>
-          </div>
-        </div>
+      </div>
+      <div>
+        <Links />
       </div>
     </div>
   );
@@ -170,6 +189,60 @@ const UserStuff = () => {
         </DialogContent>
       </Dialog>
     </>
+  );
+};
+
+const Links = () => {
+  const linkat = [
+    {
+      title: "All",
+      href: "/lessons",
+      icon: <Home size={15} />,
+    },
+    {
+      title: "Vocabulary",
+      href: "/lessons/vocabulary",
+      icon: <Book size={15} />,
+    },
+    {
+      title: "Grammar Rules",
+      href: "/lessons/grammar-rules",
+      icon: <LetterText size={15} />,
+    },
+    {
+      title: "Speaking Tips",
+      href: "/lessons/speaking-tips",
+      icon: <Laugh size={15} />,
+    },
+    {
+      title: "I Speak Family",
+      href: "/lessons/i-speak-family",
+      icon: <Users size={15} />,
+    },
+  ];
+  const pathname = usePathname();
+  return (
+    <div className=" bg-accent text-background">
+      <div className=" max-w-7xl mx-auto flex items-center justify-center gap-4">
+        {linkat.map((item, i) => {
+          return (
+            <div key={i}>
+              <Link href={item.href}>
+                <div
+                  className={cn(
+                    "flex py-3 hover:bg-background/50 items-center px-4 gap-3",
+                    pathname == item.href ? "bg-background/25" : null
+                  )}
+                >
+                  <div>{item.icon}</div>
+                  <div className="text-sm">{item.title}</div>
+                </div>
+              </Link>
+            </div>
+          );
+        })}
+      </div>
+    </div>
   );
 };
 
