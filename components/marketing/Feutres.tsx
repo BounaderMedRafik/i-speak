@@ -48,8 +48,8 @@ const Feutres = () => {
               for you
             </div>
           </div>
-          <div className="relative w-full text-center  lg:text-left  flex flex-col items-end justify-end">
-            <div className="text-sm font-normal text-end  opacity-75 max-w-xs mb-5">
+          <div className="relative w-full text-center  md:text-left  flex flex-col md:items-end items-center justify-end">
+            <div className="text-sm font-normal text-center md:text-end  opacity-75 max-w-xs mb-5">
               Experience the personalized learning journey designed just for
               you.
             </div>

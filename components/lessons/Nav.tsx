@@ -30,7 +30,7 @@ import { cn } from "@/lib/utils";
 
 const Nav = () => {
   return (
-    <div className=" w-full fixed top-0 left-0 bg-background z-50">
+    <div className=" w-full md:fixed block top-0 left-0 bg-background z-50">
       <div className=" border-b border-b-foreground/25">
         <div className=" max-w-7xl flex items-center justify-between p-5 mx-auto">
           <div>
@@ -223,7 +223,7 @@ const Links = () => {
   const pathname = usePathname();
   return (
     <div className=" bg-accent text-background">
-      <div className=" max-w-7xl mx-auto flex items-center justify-center gap-4">
+      <div className=" max-w-7xl mx-auto block md:flex items-center justify-center gap-4">
         {linkat.map((item, i) => {
           return (
             <div key={i}>

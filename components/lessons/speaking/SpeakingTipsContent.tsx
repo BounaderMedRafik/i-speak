@@ -3,16 +3,25 @@ import { cn } from "@/lib/utils";
 import Link from "next/link";
 import React from "react";
 
-const AllLessons = () => {
+const SpeakingTipsContent = () => {
   return (
-    <div className=" max-w-7xl mx-auto p-5">
-      <div className="block md:flex items-top justify-between">
-        <div className="text-3xl font-bold">All Lessons Listed Below</div>
+    <div className=" max-w-7xl mx-auto">
+      <div className="flex items-top justify-between">
+        <div className="text-3xl font-bold max-w-md">
+          Speak Properly with the best lessons from the best teachers
+        </div>
         <div className=" text-sm opacity-75 max-w-md">
-          This resource offers a comprehensive collection of lessons to enhance
-          your English language skills. Whether you're looking to expand your
-          vocabulary, improve your grammar, or develop your speaking abilities,
-          you'll find valuable content here.
+          To achieve effective and articulate communication, it's essential to
+          learn from the experts. By seeking out the guidance of skilled and
+          experienced teachers, you can develop a strong foundation in proper
+          speech, pronunciation, and articulation. Through personalized
+          instruction and targeted practice, you'll gain the confidence and
+          ability to express yourself clearly and effectively in both formal and
+          informal settings. Whether you're aiming to improve your public
+          speaking skills, enhance your professional communication, or simply
+          refine your everyday conversations, learning from the best teachers
+          can make a significant difference in your ability to speak with
+          clarity and confidence.
         </div>
       </div>
       <div>
@@ -28,8 +37,8 @@ function getRandomInt(max: number) {
 
 const LessonsList = () => {
   return (
-    <div className=" pt-24 grid gap-4 grid-cols-1 md:grid-cols-3">
-      {Lessons.map((item, i) => (
+    <div className=" pt-24 grid gap-4 grid-cols-3">
+      {Lessons.filter((item) => item.Type == "SpeakingTips").map((item, i) => (
         <div key={i}>
           <LessonTemp
             id={item.id}
@@ -110,4 +119,4 @@ const LessonTemp = ({
   );
 };
 
-export default AllLessons;
+export default SpeakingTipsContent;

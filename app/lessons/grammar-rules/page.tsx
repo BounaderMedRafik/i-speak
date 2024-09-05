@@ -1,5 +1,10 @@
+import GrammarContent from "@/components/lessons/grammar/GrammarContent";
 import React from "react";
 
 export default function GramPage() {
-  return <div>GramPage</div>;
+  return (
+    <div>
+      <GrammarContent />
+    </div>
+  );
 }

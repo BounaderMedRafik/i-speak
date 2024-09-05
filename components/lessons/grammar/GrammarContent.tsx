@@ -3,16 +3,24 @@ import { cn } from "@/lib/utils";
 import Link from "next/link";
 import React from "react";
 
-const AllLessons = () => {
+const GrammarContent = () => {
   return (
-    <div className=" max-w-7xl mx-auto p-5">
-      <div className="block md:flex items-top justify-between">
-        <div className="text-3xl font-bold">All Lessons Listed Below</div>
+    <div className=" max-w-7xl mx-auto p-5 md:p-0">
+      <div className="md:flex block items-top justify-between">
+        <div className="text-3xl font-bold max-w-md">
+          Learning Grammar Rules Proffisionally from the BEST
+        </div>
         <div className=" text-sm opacity-75 max-w-md">
-          This resource offers a comprehensive collection of lessons to enhance
-          your English language skills. Whether you're looking to expand your
-          vocabulary, improve your grammar, or develop your speaking abilities,
-          you'll find valuable content here.
+          To truly master the intricacies of grammar and elevate your language
+          skills to a professional level, there's no substitute for learning
+          from the best. By seeking out expert guidance and engaging in
+          structured, professional instruction, you can gain a deep
+          understanding of grammatical principles, develop a keen eye for
+          errors, and learn to communicate effectively and confidently in any
+          setting. Whether you're aiming to enhance your writing abilities,
+          improve your public speaking skills, or simply refine your language
+          use, investing in professional grammar instruction can be a valuable
+          and rewarding endeavor.
         </div>
       </div>
       <div>
@@ -28,8 +36,8 @@ function getRandomInt(max: number) {
 
 const LessonsList = () => {
   return (
-    <div className=" pt-24 grid gap-4 grid-cols-1 md:grid-cols-3">
-      {Lessons.map((item, i) => (
+    <div className=" pt-24 md:grid block gap-4 grid-cols-3">
+      {Lessons.filter((item) => item.Type == "GrammarRules").map((item, i) => (
         <div key={i}>
           <LessonTemp
             id={item.id}
@@ -110,4 +118,4 @@ const LessonTemp = ({
   );
 };
 
-export default AllLessons;
+export default GrammarContent;

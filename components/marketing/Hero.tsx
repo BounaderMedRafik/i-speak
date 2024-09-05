@@ -27,7 +27,7 @@ export const Hero = () => {
               welcomes you to speak English confidently
             </p>
           </div>
-          <div className="flex items-center gap-2">
+          <div className="block space-y-5 md:flex items-center gap-2">
             <Link
               href={"/lessons"}
               className={buttonVariants({

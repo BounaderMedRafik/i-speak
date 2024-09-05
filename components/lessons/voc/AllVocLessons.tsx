@@ -5,13 +5,13 @@ import React from "react";
 
 const AllVocLessons = () => {
   return (
-    <div className=" max-w-7xl mx-auto">
-      <div className="flex items-top justify-between">
+    <div className=" max-w-7xl mx-auto p-5">
+      <div className="block md:flex items-top justify-between">
         <div className="text-3xl font-bold">
           Learn Vocabulary From{" "}
           <span className="text-accent">Proffisonals</span>
         </div>
-        <div className=" text-sm opacity-75 max-w-md">
+        <div className=" text-sm opacity-75 max-w-md mt-3">
           By learning vocabulary from professionals, you can significantly
           enhance your language skills. Their expertise and experience can
           provide you with accurate information, real-world applications, and
@@ -35,7 +35,7 @@ function getRandomInt(max: number) {
 
 const LessonsList = () => {
   return (
-    <div className=" pt-24 grid gap-4 grid-cols-3">
+    <div className=" pt-24 md:grid block gap-4 grid-cols-3">
       {Lessons.filter((item) => item.Type == "Vocabulary").map((item, i) => (
         <div key={i}>
           <LessonTemp

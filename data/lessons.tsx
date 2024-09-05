@@ -6,8 +6,8 @@ export const Lessons = [
       "Learn over 50 phrasal verbs while I entertain you!  Phrasal verbs in English can be hard to learn.  I tried to think of a way that I could act them all out for you so that they would be easier to learn and remember.  So in this English lesson I will help you learn over 50 phrasal verbs, and I will do my best to make them easy to remember!",
     iframe: (
       <iframe
-        width="560"
-        height="315"
+        width="1000"
+        height="500"
         src="https://www.youtube.com/embed/iNyUmbmQQZg?si=Rzd6RMM3GGLw1w_2"
         title="YouTube video player"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -27,8 +27,8 @@ export const Lessons = [
       'The reason why many students think their English is bad, is because they use simple vocabulary all the time! For example, if you want to describe something positively, you would use adjectives such as "Nice, Good", or negatively using adjectives such as "Bad". In this lesson, you will learn some alternatives to simple adjectives that you use daily. ',
     iframe: (
       <iframe
-        width="560"
-        height="315"
+        width="1000"
+        height="500"
         src="https://www.youtube.com/embed/AfBOIEROBI8?si=inzxlMoEZGC2dmf9"
         title="YouTube video player"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -47,8 +47,8 @@ export const Lessons = [
       "In this series, we will teach you the core 800 English words that you must know if you're a an absolute beginner.With each new episodes in this series, we ll include the previous lessons at the end. So after you ve learned the new words and phrases, stick around and review what you learned in previous lessons. Reviewing is one of the most important parts of learning a language! This is THE place to start if you want to learn English, and improve both your listening and speaking skills.",
     iframe: (
       <iframe
-        width="560"
-        height="315"
+        width="1000"
+        height="500"
         src="https://www.youtube.com/embed/mgty3Bgu-YY?si=UeHJQ3E2_zvD8tXW"
         title="YouTube video player"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -67,8 +67,8 @@ export const Lessons = [
       "Are you starting your English language journey? This series is designed to provide you with a solid foundation by teaching you the 800 most crucial English words.Every episode will introduce new vocabulary and phrases. To reinforce your learning, we'll also include a eview of past lessons. Regular review is key to mastering a language. Start here and embark on a path to improved listening and speaking skills.",
     iframe: (
       <iframe
-        width="560"
-        height="315"
+        width="1000"
+        height="500"
         src="https://www.youtube.com/embed/F30R0tDIXP0?si=cXS8wMg3P-ICqGup"
         title="YouTube video player"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -87,8 +87,8 @@ export const Lessons = [
       "Ready to kickstart your English learning? This series is your go-to resource for mastering the 800 most important English words.Each episode will introduce new vocabulary and phrases. To help you remember them, we'll offer effective memory techniques like flashcards, word associations, and sentence creation.Reviewing is crucial for long-term retention. We'll recap previous lessons in every episode.Start here and discover the secrets to building a strong English vocabulary.",
     iframe: (
       <iframe
-        width="560"
-        height="315"
+        width="1000"
+        height="500"
         src="https://www.youtube.com/embed/JuoqE2lpRUM?si=JDZyGCnbFlG_-1GS"
         title="YouTube video player"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -107,8 +107,8 @@ export const Lessons = [
       "There are so many different grammar rules in English, and some of them can be pretty tricky. So let's look at 5 grammar rules that you need to remember because they will certainly help give you a better understanding of the English language. Not to mention, it'll help you develop your overall English fluency. ",
     iframe: (
       <iframe
-        width="560"
-        height="315"
+        width="1000"
+        height="500"
         src="https://www.youtube.com/embed/Yc1HfOzwzsM?si=vAspZsNe1f8x3Lh7"
         title="YouTube video player"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -128,8 +128,8 @@ export const Lessons = [
       "Unlock the secrets of effective communication and impress native speakers with your impeccable grammar. Our comprehensive guide covers the most essential rules, providing clear explanations, examples, and exercises to help you solidify your understanding. Whether you're a beginner or looking to refine your advanced skills, this resource will equip you with the tools to express yourself confidently and fluently.",
     iframe: (
       <iframe
-        width="560"
-        height="315"
+        width="1000"
+        height="500"
         src="https://www.youtube.com/embed/gXbz6e--R_A?si=vN43gjAUL5izQ9lS"
         title="YouTube video player"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -148,8 +148,8 @@ export const Lessons = [
       "If you know this grammar, you ll be able to speak English at a level where you can explain what you need, what you re doing for life, or even work with people. ",
     iframe: (
       <iframe
-        width="560"
-        height="315"
+        width="1000"
+        height="500"
         src="https://www.youtube.com/embed/6LFjVC3cHjI?si=FKtWldOxxtHWHcob"
         title="YouTube video player"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -168,8 +168,8 @@ export const Lessons = [
       "Are you struggling with prepositions in English? Marina Mogilko, a renowned language expert, has simplified the complexities of preposition usage into five easy-to-understand rules. In this comprehensive guide, you'll discover practical tips and examples to help you master prepositions and improve your English fluency. Whether you're a beginner or an advanced learner, these rules will provide you with a solid foundation for accurate and confident communication.",
     iframe: (
       <iframe
-        width="560"
-        height="315"
+        width="1000"
+        height="500"
         src="https://www.youtube.com/embed/fndD_By0Qmk?si=c7mdcBGyBKB_DNo4"
         title="YouTube video player"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -188,8 +188,8 @@ export const Lessons = [
       "Learn every Digital SAT Grammar Rule if you watch this video all the way through. Get a 1600 on the Digital SAT (DSAT) using these tips; improve your EBRW score massively by learning grammar rules! ",
     iframe: (
       <iframe
-        width="560"
-        height="315"
+        width="1000"
+        height="500"
         src="https://www.youtube.com/embed/NLz8CRdMvuI?si=_wG7AqRy4mXmH3q1"
         title="YouTube video player"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -208,8 +208,8 @@ export const Lessons = [
       "Discover a way to practice speaking English alone to improve your spoken English. This approach can help improve several aspects of your pronunciation, your grammar, your sentence structure, your vocabulary, and your ability to communicate with others in English.",
     iframe: (
       <iframe
-        width="560"
-        height="315"
+        width="1000"
+        height="500"
         src="https://www.youtube.com/embed/CAU2zx2Ri_M?si=2UMq6R1uJpcxW8fa"
         title="YouTube video player"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -228,8 +228,8 @@ export const Lessons = [
       "Are you preparing for the IELTS Speaking test and feeling nervous? This comprehensive guide offers essential tips to help you excel in your exam. Discover effective strategies for improving your fluency, coherence, pronunciation, and vocabulary. Learn how to structure your answers, respond confidently to challenging questions, and make a positive impression on the examiner. With these invaluable tips, you'll be well-prepared to showcase your English language skills and achieve your desired IELTS score.",
     iframe: (
       <iframe
-        width="560"
-        height="315"
+        width="1000"
+        height="500"
         src="https://www.youtube.com/embed/RuvVc3Mdgvg?si=cxuN9FHGSkjjrqgJ"
         title="YouTube video player"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -248,8 +248,8 @@ export const Lessons = [
       "Are you a beginner public speaker feeling overwhelmed by the thought of addressing an audience? Fear not! This comprehensive guide offers seven practical tips to help you overcome your anxiety and deliver effective speeches. Learn how to prepare effectively, structure your content, build confidence, engage your audience, and handle potential challenges with ease. With these valuable insights, you'll be well-equipped to conquer your public speaking fears and deliver impactful presentations that leave a lasting impression.",
     iframe: (
       <iframe
-        width="560"
-        height="315"
+        width="1000"
+        height="500"
         src="https://www.youtube.com/embed/Ns_z4wEtdRM?si=Ims6Tcscz51fuYUf"
         title="YouTube video player"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -268,8 +268,8 @@ export const Lessons = [
       "Hello, listen, do you feel like you are not making progress with your spoken English, like you are stuck? Today I am going to help you. I am going to give you 5 tips, 5 simple things you can do everyday that will help improve your spoken speaking, and will help you get unstuck - so you can do really well on your IELTS Speaking test.",
     iframe: (
       <iframe
-        width="560"
-        height="315"
+        width="1000"
+        height="500"
         src="https://www.youtube.com/embed/MdUkC7Vz3rg?si=aHVZuelr_dj_A_tg"
         title="YouTube video player"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -288,8 +288,8 @@ export const Lessons = [
       "Need ideas on how to start your upcoming speech? Public speaking is listed as Americans' number one fear, before death at number 5, and loneliness at number 7. So most of us are less afraid of dying alone than possibly embarrassing ourselves in front of others. The good news is, I've put together a few tricks to start your speech off right and take that pressure off.",
     iframe: (
       <iframe
-        width="560"
-        height="315"
+        width="1000"
+        height="500"
         src="https://www.youtube.com/embed/7tzentBmmUc?si=hEIHjF05AmUJNcph"
         title="YouTube video player"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

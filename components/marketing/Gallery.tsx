@@ -13,8 +13,8 @@ const Gallery = () => {
             <span className="  text-primary">Teachers</span>
           </div>
         </div>
-        <div className="relative w-full text-center  lg:text-left  flex flex-col items-end justify-end">
-          <div className="text-sm font-normal text-end  opacity-75 max-w-sm mb-5">
+        <div className="relative w-full text-center  lg:text-left  flex flex-col md:items-end items-center justify-end">
+          <div className="text-sm font-normal md:text-end text-center  opacity-75 max-w-sm mb-5">
             With a team of highly qualified and experienced teachers who are
             dedicated to their students' success
           </div>
