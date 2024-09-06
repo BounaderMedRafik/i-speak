@@ -11,13 +11,13 @@ const SpeakingTipsContent = () => {
           Speak Properly with the best lessons from the best teachers
         </div>
         <div className=" text-sm opacity-75 max-w-md">
-          To achieve effective and articulate communication, it's essential to
-          learn from the experts. By seeking out the guidance of skilled and
+          To achieve effective and articulate communication, it&apos;s essential
+          to learn from the experts. By seeking out the guidance of skilled and
           experienced teachers, you can develop a strong foundation in proper
           speech, pronunciation, and articulation. Through personalized
-          instruction and targeted practice, you'll gain the confidence and
+          instruction and targeted practice, you&apos;ll gain the confidence and
           ability to express yourself clearly and effectively in both formal and
-          informal settings. Whether you're aiming to improve your public
+          informal settings. Whether you&apos;re aiming to improve your public
           speaking skills, enhance your professional communication, or simply
           refine your everyday conversations, learning from the best teachers
           can make a significant difference in your ability to speak with

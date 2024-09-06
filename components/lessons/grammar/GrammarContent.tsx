@@ -12,12 +12,12 @@ const GrammarContent = () => {
         </div>
         <div className=" text-sm opacity-75 max-w-md">
           To truly master the intricacies of grammar and elevate your language
-          skills to a professional level, there's no substitute for learning
-          from the best. By seeking out expert guidance and engaging in
+          skills to a professional level, there&apos;s no substitute for
+          learning from the best. By seeking out expert guidance and engaging in
           structured, professional instruction, you can gain a deep
           understanding of grammatical principles, develop a keen eye for
           errors, and learn to communicate effectively and confidently in any
-          setting. Whether you're aiming to enhance your writing abilities,
+          setting. Whether you&apos;re aiming to enhance your writing abilities,
           improve your public speaking skills, or simply refine your language
           use, investing in professional grammar instruction can be a valuable
           and rewarding endeavor.

@@ -20,10 +20,10 @@ export const Hero = () => {
             </div>
             <p className="text-base  opacity-75 md:text-sm md:max-w-3xl">
               Ispeak center website is here to fit your learning journey of
-              English language into your busy life. It's a place where learners
-              come to achieve their communicative goals in English and boost
-              their speaking skills. This website is your window to join our
-              classes from home and be part of our family. Ispeak center
+              English language into your busy life. It&apos;s a place where
+              learners come to achieve their communicative goals in English and
+              boost their speaking skills. This website is your window to join
+              our classes from home and be part of our family. Ispeak center
               welcomes you to speak English confidently
             </p>
           </div>

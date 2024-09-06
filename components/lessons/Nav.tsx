@@ -172,13 +172,14 @@ const UserStuff = () => {
             </div>
           </div>
           <div className="mt-3">
-            Hi there! I'm Melissa Mels, a language enthusiast who's always on
-            the lookout for new adventures. I love discovering different
-            cultures and connecting with people from around the world. Learning
-            English has been a huge part of my journey, and I'm excited to share
-            my tips and tricks with you. Whether you're just starting out or
-            looking to take your English skills to the next level, I'm here to
-            help. Let's learn together and have fun!
+            Hi there! I&apos;m Melissa Mels, a language enthusiast who&apos;s
+            always on the lookout for new adventures. I love discovering
+            different cultures and connecting with people from around the world.
+            Learning English has been a huge part of my journey, and I&apos;m
+            excited to share my tips and tricks with you. Whether you&apos;re
+            just starting out or looking to take your English skills to the next
+            level, I&apos;m here to help. Let&apos;s learn together and have
+            fun!
           </div>
 
           <div>

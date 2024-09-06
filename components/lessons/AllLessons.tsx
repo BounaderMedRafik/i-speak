@@ -10,9 +10,9 @@ const AllLessons = () => {
         <div className="text-3xl font-bold">All Lessons Listed Below</div>
         <div className=" text-sm opacity-75 max-w-md">
           This resource offers a comprehensive collection of lessons to enhance
-          your English language skills. Whether you're looking to expand your
-          vocabulary, improve your grammar, or develop your speaking abilities,
-          you'll find valuable content here.
+          your English language skills. Whether you&apos;re looking to expand
+          your vocabulary, improve your grammar, or develop your speaking
+          abilities, you&apos;ll find valuable content here.
         </div>
       </div>
       <div>
