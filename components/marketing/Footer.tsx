@@ -1,8 +1,6 @@
-import React from "react";
-import MyLogo from "../brand/MyLogo";
+import { Facebook, Instagram, Twitter } from "lucide-react";
 import Link from "next/link";
 import { buttonVariants } from "../ui/button";
-import { Facebook, Instagram, Twitter } from "lucide-react";
 
 const links = [
   {
@@ -30,7 +28,6 @@ const Footer = () => {
                 href={item.href}
                 className={buttonVariants({
                   variant: "link",
-
                   className: " opacity-50",
                 })}
               >
