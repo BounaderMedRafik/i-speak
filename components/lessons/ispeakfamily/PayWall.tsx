@@ -41,8 +41,8 @@ const PayWall = ({ children }: { children: React.ReactNode }) => {
         <div className=" bg-background/50 flex justify-center absolute  top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 w-full md:w-[120%] h-full z-20  backdrop-blur-lg">
           <div className="mt-24 p-5 bg-background h-fit rounded-2xl">
             <h4 className=" max-w-md text-center font-bold">
-              You're currently using the free tier of our service. To access
-              this content, please upgrade to our premium plan.
+              You&apos;re currently using the free tier of our service. To
+              access this content, please upgrade to our premium plan.
             </h4>
             <Dialog>
               <div className="mt-3 flex  justify-center">
