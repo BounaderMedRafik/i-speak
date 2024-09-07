@@ -305,12 +305,73 @@ export const Lessons = [
 
 export const Meetings = [
   {
-    title: "Learning The Best Ways To Congrates a New Graduate",
+    id: "mastering-english-phrasal-verbs-a-comprehensive-guide",
+    title: "Mastering English Phrasal Verbs: A Comprehensive Guide",
     description:
-      "What are appropriate ways to congratulate a close friend, a family member, a colleague, or a stranger?",
-    GoogleMeetLink: "patata",
+      "Learn the ins and outs of phrasal verbs, including their meanings, usage, and common collocations.",
+    GoogleMeetLink: "https://meet.google.com/abc-def-ghij",
     thumbnail:
-      "https://images.pexels.com/photos/2880979/pexels-photo-2880979.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/159581/dictionary-reference-book-learning-meaning-159581.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     dueDate: "May 28, 2019",
+    teacher: "Tyler Durden",
+    pfp: "https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    teacherBiography:
+      "Dr. Tyler Durden is a renowned linguist specializing in English language acquisition. With a PhD in Applied Linguistics, he has authored several textbooks and conducted extensive research on effective English teaching methodologies.",
+  },
+  {
+    id: "improving-your-english-pronunciation-tips-and-techniques",
+    title: "Improving Your English Pronunciation: Tips and Techniques",
+    description:
+      "Discover practical strategies for perfecting your English pronunciation, including phonetics, intonation, and stress patterns.",
+    GoogleMeetLink: "https://meet.google.com/abc-def-ghij",
+    thumbnail:
+      "https://images.pexels.com/photos/20447502/pexels-photo-20447502/free-photo-of-woman-wearing-a-beige-coat-and-headphones-walking-in-a-street-with-a-coffee-and-phone.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    dueDate: "June 15, 2024",
+    teacher: "Amina Fatima Zahra",
+    pfp: "https://images.pexels.com/photos/7582583/pexels-photo-7582583.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    teacherBiography:
+      "Amina Fatima Zahra is a certified English language teacher with a passion for helping learners achieve fluency. With years of experience in both online and classroom settings, she has developed a unique approach to teaching English grammar and vocabulary.",
+  },
+  {
+    id: "expanding-your-english-vocabulary-essential-strategies",
+    title: "Expanding Your English Vocabulary: Essential Strategies",
+    description:
+      "Learn effective techniques for building a robust English vocabulary, including word roots, prefixes, and suffixes.",
+    GoogleMeetLink: "https://meet.google.com/jkl-mno-pqr",
+    thumbnail:
+      "https://images.pexels.com/photos/256417/pexels-photo-256417.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    dueDate: "July 10, 2024",
+    teacher: "Karim Ali Ahmed",
+    pfp: "https://images.pexels.com/photos/7594088/pexels-photo-7594088.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    teacherBiography:
+      "Karim Ali Ahmed is a language enthusiast with a focus on English language learning. He has a deep understanding of English idioms, cultural references, and colloquialisms, making his lessons engaging and informative.",
+  },
+  {
+    id: "writing-effective-english-essays-a-step-by-step-guide",
+    title: "Writing Effective English Essays: A Step-by-Step Guide",
+    description:
+      "Master the art of writing clear, well-structured English essays, from brainstorming to proofreading.",
+    GoogleMeetLink: "https://meet.google.com/stu-vwx-yz",
+    thumbnail:
+      "https://images.pexels.com/photos/8926900/pexels-photo-8926900.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    dueDate: "August 25, 2024",
+    teacher: "Laila Aicha Souad",
+    pfp: "https://images.pexels.com/photos/3323428/pexels-photo-3323428.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    teacherBiography:
+      "Laila Aicha Souad is a seasoned English writing tutor with a keen eye for detail. She specializes in helping students develop their writing skills, from grammar and punctuation to style and coherence.",
+  },
+  {
+    id: "conquering-english-idioms-a-practical-guide",
+    title: "Conquering English Idioms: A Practical Guide",
+    description:
+      "Explore the world of English idioms and learn how to use them effectively in your conversations and writing.",
+    GoogleMeetLink: "https://meet.google.com/def-ghi-jkl",
+    thumbnail:
+      "https://images.pexels.com/photos/4226140/pexels-photo-4226140.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    dueDate: "September 12, 2024",
+    teacher: "Omar Youssef Hicham",
+    pfp: "https://images.pexels.com/photos/24260728/pexels-photo-24260728/free-photo-of-fitness-photography.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    teacherBiography:
+      "Omar Youssef Hicham is a passionate English language teacher with a focus on conversational fluency. He specializes in helping students overcome language barriers and build confidence in their English-speaking abilities.",
   },
 ];
