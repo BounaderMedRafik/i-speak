@@ -10,6 +10,7 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
+import { ModeToggle } from "../ui/ModeToggle";
 
 const Nav = () => {
   const links = [
@@ -44,6 +45,10 @@ const Nav = () => {
                 </div>
               );
             })}
+          </div>
+
+          <div>
+            <ModeToggle />
           </div>
 
           <div>

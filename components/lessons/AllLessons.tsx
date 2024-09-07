@@ -28,22 +28,24 @@ function getRandomInt(max: number) {
 
 const LessonsList = () => {
   return (
-    <div className=" pt-24 grid gap-4 grid-cols-1 md:grid-cols-3">
-      {Lessons.map((item, i) => (
-        <div key={i}>
-          <LessonTemp
-            id={item.id}
-            title={item.title}
-            iframe={item.iframe}
-            Type={item.Type}
-            thumbnail={item.thumbnail}
-            duration={item.duration}
-            dateAdded={item.dateAdded}
-            watchedHours={getRandomInt(304)}
-            description={item.description}
-          />
-        </div>
-      ))}
+    <div className="pt-24 grid gap-4 grid-cols-1 md:grid-cols-3">
+      {Lessons.slice()
+        .sort(() => Math.random() - 0.5)
+        .map((item, i) => (
+          <div key={i}>
+            <LessonTemp
+              id={item.id}
+              title={item.title}
+              iframe={item.iframe}
+              Type={item.Type}
+              thumbnail={item.thumbnail}
+              duration={item.duration}
+              dateAdded={item.dateAdded}
+              watchedHours={getRandomInt(304)}
+              description={item.description}
+            />
+          </div>
+        ))}
     </div>
   );
 };

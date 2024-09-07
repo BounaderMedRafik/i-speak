@@ -22,11 +22,18 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "../ui/dialog";
-import { Button } from "../ui/button";
+import { Button, buttonVariants } from "../ui/button";
 import { Popover, PopoverContent, PopoverTrigger } from "../ui/popover";
 import { Meetings } from "@/data/lessons";
 import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipProvider,
+  TooltipTrigger,
+} from "../ui/tooltip";
+import { ModeToggle } from "../ui/ModeToggle";
 
 const Nav = () => {
   return (
@@ -37,19 +44,29 @@ const Nav = () => {
             <MyLogo />
           </div>
           <div className="flex items-center gap-4">
-            <div>
+            {/* <div>
               <MyLessons />
-            </div>
+            </div> */}
             <div>
               <Notifications />
             </div>
             <div>
               <UserStuff />
             </div>
+            <div className=" fixed right-10 bottom-10 z-30">
+              <ModeToggle />
+            </div>
             <div>
-              <Link href={"/"}>
-                <LogOut />
-              </Link>
+              <TooltipProvider delayDuration={50}>
+                <Tooltip>
+                  <TooltipTrigger>
+                    <Link href={"/"}>
+                      <LogOut />
+                    </Link>
+                  </TooltipTrigger>
+                  <TooltipContent>Log Out</TooltipContent>
+                </Tooltip>
+              </TooltipProvider>
             </div>
           </div>
         </div>
@@ -75,7 +92,7 @@ const Notifications = () => {
       <Popover>
         <PopoverTrigger asChild>
           <div className="relative  hover:opacity-85 cursor-pointer">
-            <div className=" bg-destructive text-background flex items-center justify-center rounded-full text-[9px] size-5 absolute  -top-2 -right-2">
+            <div className=" bg-destructive text-white flex items-center justify-center rounded-full text-[9px] size-5 absolute  -top-2 -right-2">
               2
             </div>
             <Bell />
@@ -84,7 +101,7 @@ const Notifications = () => {
         <PopoverContent>
           <div className="flex items-center justify-between">
             <div>Notifications</div>
-            <div className="size-5 text-sm bg-destructive flex items-center justify-center text-background rounded-full font-bold">
+            <div className="size-5 text-xs bg-destructive flex items-center justify-center text-white rounded-full font-bold">
               {" "}
               2
             </div>
@@ -116,7 +133,15 @@ const Notifications = () => {
                       {item.description}
                     </div>
                     <div className="mt-3">
-                      <Button size={"sm"}>Register Now!</Button>
+                      <a
+                        href="/lessons/i-speak-family"
+                        className={buttonVariants({
+                          variant: "default",
+                          size: "sm",
+                        })}
+                      >
+                        Register Now!
+                      </a>
                     </div>
                   </div>
                   <div className=" w-full h-px bg-foreground/25 my-3" />

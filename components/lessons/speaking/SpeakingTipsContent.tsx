@@ -5,12 +5,12 @@ import React from "react";
 
 const SpeakingTipsContent = () => {
   return (
-    <div className=" max-w-7xl mx-auto">
-      <div className="flex items-top justify-between">
+    <div className=" max-w-7xl mx-auto  p-5 md:p-0">
+      <div className="block md:flex items-top justify-between">
         <div className="text-3xl font-bold max-w-md">
           Speak Properly with the best lessons from the best teachers
         </div>
-        <div className=" text-sm opacity-75 max-w-md">
+        <div className=" text-sm opacity-75 max-w-md  mt-3">
           To achieve effective and articulate communication, it&apos;s essential
           to learn from the experts. By seeking out the guidance of skilled and
           experienced teachers, you can develop a strong foundation in proper
@@ -37,7 +37,7 @@ function getRandomInt(max: number) {
 
 const LessonsList = () => {
   return (
-    <div className=" pt-24 grid gap-4 grid-cols-3">
+    <div className=" pt-24 md:grid block gap-4 grid-cols-3 ">
       {Lessons.filter((item) => item.Type == "SpeakingTips").map((item, i) => (
         <div key={i}>
           <LessonTemp

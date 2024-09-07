@@ -75,7 +75,7 @@ const Feutres = () => {
           return (
             <div
               key={i}
-              className="  bg-gray-100  cursor-default group p-6 rounded-2xl transition-all flex flex-col hover:bg-accent hover:text-background "
+              className="  bg-gray-100 dark:bg-gray-900  cursor-default group p-6 rounded-2xl transition-all flex flex-col hover:bg-accent dark:hover:bg-accent hover:text-background "
             >
               <div className="  bg-accent text-background  transition-all group-hover:ml-6 group-hover:bg-background group-hover:text-accent p-5 size-fit rounded-full">
                 {item.icon}

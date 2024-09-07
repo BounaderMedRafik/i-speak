@@ -20,12 +20,12 @@ const ISpeakFamilyContent = () => {
   return (
     <div>
       {" "}
-      <div className=" max-w-7xl mx-auto">
-        <div className="flex items-top justify-between">
+      <div className=" max-w-7xl mx-auto  p-5 md:p-0">
+        <div className="block md:flex items-top justify-between">
           <div className="text-3xl font-bold max-w-md">
             Learn And More By Meetings Scheduled only to teach
           </div>
-          <div className=" text-sm opacity-75 max-w-md">
+          <div className=" text-sm opacity-75 max-w-md mt-3">
             To enhance your learning experience and achieve your educational
             goals, actively participate in meetings specifically designed for
             instruction. These focused gatherings provide a valuable opportunity
@@ -51,22 +51,24 @@ const ISpeakFamilyContent = () => {
 
 const Meetata = () => {
   return (
-    <div className=" pt-24 grid gap-4 grid-cols-1 md:grid-cols-3">
-      {Meetings.map((item, i) => (
-        <div key={i}>
-          <MeetingTemp
-            id={item.id}
-            title={item.title}
-            description={item.description}
-            GoogleMeetLink={item.GoogleMeetLink}
-            thumbnail={item.thumbnail}
-            dueDate={item.dueDate}
-            teacher={item.teacher}
-            pfp={item.pfp}
-            teacherBiography={item.teacherBiography}
-          />
-        </div>
-      ))}
+    <div className="pt-24 grid gap-4 grid-cols-1 md:grid-cols-3">
+      {Meetings.slice()
+        .reverse()
+        .map((item, i) => (
+          <div key={i}>
+            <MeetingTemp
+              id={item.id}
+              title={item.title}
+              description={item.description}
+              GoogleMeetLink={item.GoogleMeetLink}
+              thumbnail={item.thumbnail}
+              dueDate={item.dueDate}
+              teacher={item.teacher}
+              pfp={item.pfp}
+              teacherBiography={item.teacherBiography}
+            />
+          </div>
+        ))}
     </div>
   );
 };

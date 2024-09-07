@@ -13,7 +13,7 @@ export const Hero = () => {
                 Brand new
               </div>
             </div>
-            <div className="max-w-lg uppercase mb-6  text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
+            <div className="max-w-lg uppercase mb-6  text-3xl font-bold tracking-tight  sm:text-4xl sm:leading-none">
               Level up your{" "}
               <span className="text-primary">English speaking </span>skills
               online
@@ -27,7 +27,7 @@ export const Hero = () => {
               welcomes you to speak English confidently
             </p>
           </div>
-          <div className="block space-y-5 md:flex items-center gap-2">
+          <div className="block space-y-5 md:space-y-0 md:flex items-center gap-2">
             <Link
               href={"/lessons"}
               className={buttonVariants({
