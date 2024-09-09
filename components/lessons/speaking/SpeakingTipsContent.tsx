@@ -8,7 +8,7 @@ const SpeakingTipsContent = () => {
     <div className=" max-w-7xl mx-auto  p-5 md:p-0">
       <div className="block md:flex items-top justify-between">
         <div className="text-3xl font-bold max-w-md">
-          Speak Properly with the best lessons from the best teachers
+          Elevate Your Communication Skills with Top-Tier Instruction
         </div>
         <div className=" text-sm opacity-75 max-w-md  mt-3">
           To achieve effective and articulate communication, it&apos;s essential

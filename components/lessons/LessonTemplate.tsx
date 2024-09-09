@@ -12,12 +12,12 @@ const LessonTemplate = ({ id }: { id: string }) => {
   const lesson = Lessons.filter((temp) => temp.id == id)[0];
   return (
     <div className=" max-w-7xl mx-auto p-5 md:px-0">
-      <div className="flex items-center  justify-between">
+      <div className="md:flex block mb-5 md:mb-0 items-center  justify-between">
         <h3>{lesson.title}</h3>
         <div>
           <div
             className={cn(
-              " w-fit  text-sm  bg-transparent text-background px-4 py-2 rounded-full",
+              " w-fit  md:text-sm text-xs  bg-transparent  text-background md:px-4 md:py-2 px-2 py-1 rounded-full",
               lesson.Type.includes("Vocabulary")
                 ? " bg-green-700"
                 : lesson.Type == "GrammarRules"
@@ -37,16 +37,16 @@ const LessonTemplate = ({ id }: { id: string }) => {
 
       <div className=" mt-14 flex items-center justify-between text-lg opacity-75">
         <div className="flex items-center gap-3">
-          <div>{lesson.dateAdded}</div>
+          <div className=" text-sm">{lesson.dateAdded}</div>
           <div>
-            <Calendar />
+            <Calendar size={15} />
           </div>
         </div>
         <div className="flex items-center  gap-3">
           <div>
-            <Eye />
+            <Eye size={15} />
           </div>
-          <div>{getRandomInt(304)}k</div>
+          <div className="text-sm">{getRandomInt(304)}k</div>
         </div>
       </div>
 

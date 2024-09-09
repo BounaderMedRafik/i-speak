@@ -7,7 +7,9 @@ const AllLessons = () => {
   return (
     <div className=" max-w-7xl mx-auto p-5">
       <div className="block md:flex items-top justify-between">
-        <div className="text-3xl font-bold">All Lessons Listed Below</div>
+        <div className="text-3xl font-bold">
+          Discover Our Extensive Range of Lessons
+        </div>
         <div className=" text-sm opacity-75 max-w-md">
           This resource offers a comprehensive collection of lessons to enhance
           your English language skills. Whether you&apos;re looking to expand

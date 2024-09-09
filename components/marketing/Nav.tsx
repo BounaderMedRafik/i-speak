@@ -11,6 +11,7 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet";
 import { ModeToggle } from "../ui/ModeToggle";
+import MyLogo from "../brand/MyLogo";
 
 const Nav = () => {
   const links = [
@@ -26,7 +27,9 @@ const Nav = () => {
   return (
     <div className="py-5 border-foreground/20 border-b px-6 md:px-0">
       <div className="flex items-center justify-between max-w-6xl mx-auto">
-        <div>I SPEAK</div>
+        <div>
+          <MyLogo />
+        </div>
         <div className=" hidden md:flex items-center gap-2">
           {/* Buttons */}
 

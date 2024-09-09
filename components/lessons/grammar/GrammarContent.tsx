@@ -8,7 +8,7 @@ const GrammarContent = () => {
     <div className=" max-w-7xl mx-auto p-5 md:p-0">
       <div className="md:flex block items-top justify-between">
         <div className="text-3xl font-bold max-w-md">
-          Learning Grammar Rules Proffisionally from the BEST
+          Master Grammar with Expert Guidance
         </div>
         <div className=" text-sm opacity-75 max-w-md">
           To truly master the intricacies of grammar and elevate your language
